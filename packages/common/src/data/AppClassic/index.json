@@ -39,12 +39,8 @@
       "id": 1,
       "image": "../../assets/image/appClassic/client1.png",
       "title": "One Tree Planted"
-    },
-    {
-      "id": 2,
-      "image": "../../assets/image/appClassic/client2.png",
-      "title": "Simple Token"
     }
+    
   ],
   "keyFeatures": {
     "slogan": "SHARE UNIQUE PLACES'",

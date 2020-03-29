@@ -36,18 +36,18 @@ export const navbar = {
       path: '#keyFeatures',
       offset: '84',
     },
-    {
-      id: 3,
-      label: 'Pricing',
-      path: '#pricing',
-      offset: '84',
-    },
-    {
-      id: 4,
-      label: 'Testimonial',
-      path: '#testimonial',
-      offset: '80',
-    },
+    // {
+    //   id: 3,
+    //   label: 'Pricing',
+    //   path: '#pricing',
+    //   offset: '84',
+    // },
+    // {
+    //   id: 4,
+    //   label: 'Testimonial',
+    //   path: '#testimonial',
+    //   offset: '80',
+    // },
     {
       id: 5,
       label: 'Faq',

@@ -22,8 +22,8 @@ const Customer = () => {
 
   return (
     <CustomerWrapper>
-      <Text content="Trusted by companies like:" />
-      <ImageWrapper>
+      <Text content="Making the world a better place" />
+      <ImageWrapper style={{width:"300px"}}>
         {client.map(item => (
           <Image
             key={`client-key${item.id}`}
