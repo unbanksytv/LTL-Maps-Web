@@ -108,17 +108,11 @@ const Navbar = () => {
                 onChange={handleOnChange}
               />
             </form>
-            <Button
-              className="text"
-              variant="textButton"
-              icon={<Icon icon={state.searchToggle ? x : search} />}
-              onClick={() => toggleHandler('search')}
-            />
           </Search>
           {/* end of search */}
 
           <AnchorLink href="#trail" offset={84}>
-            <Button className="trail" title="Try for Free" />
+            <Button className="trail" title="Join Waitlist"/>
           </AnchorLink>
 
           <Button

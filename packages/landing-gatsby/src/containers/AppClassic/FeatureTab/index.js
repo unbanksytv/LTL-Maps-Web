@@ -72,7 +72,7 @@ const FeatureTab = () => {
                   key={`app-tab--key${item.id}`}
                 >
                   <Fade>
-                    <Image src={item.image.publicURL} alt={item.title} />
+                    <Image src={item.image.publicURL} alt={item.title} style={{ height: "600px", position: "relative", top: "80px"}} />
                   </Fade>
                 </Panel>
               ))}

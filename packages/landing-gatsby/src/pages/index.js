@@ -48,7 +48,7 @@ export default function() {
             {/* <Faq /> */}
             <JoinTrail />
           </ContentWrapper>
-          <Footer />
+          {/* <Footer /> */}
         </AppWrapper>
       </>
     </ThemeProvider>
