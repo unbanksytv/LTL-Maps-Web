@@ -38,9 +38,9 @@ export default function() {
           <ContentWrapper>
             <Banner />
             <Customer />
-            <KeyFeatures />
+            {/* <KeyFeatures /> */}
             <AppSlider />
-            <Features />
+            {/* <Features /> */}
             <DesignedAndBuilt />
             <FeatureTab />
             {/* <PricingPolicy /> */}

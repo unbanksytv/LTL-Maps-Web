@@ -50,7 +50,7 @@ const Banner = () => {
         </BannerContent>
         <BannerImage>
           <Fade up delay={100}>
-            <Image src={bannerImg} alt="Banner" style={{width:"459px"}} />
+            <Image src={bannerImg} alt="Banner" style={{width:"325px", position:"relative", left:"-100px", top:"-20px"}} />
           </Fade>
         </BannerImage>
       </Container>
