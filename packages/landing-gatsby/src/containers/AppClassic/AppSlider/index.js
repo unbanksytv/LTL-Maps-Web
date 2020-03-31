@@ -61,7 +61,10 @@ const AppSlider = () => {
           >
             <Fragment>
               {carousel.map(item => (
-                <GlideSlide key={`feature-side--key${item.id}`}>
+                <GlideSlide
+                  key={`feature-side--key${item.id}`}
+                  style={{ width: '1900px' }}
+                >
                   <Image src={item.image.publicURL} alt={item.title} />
                 </GlideSlide>
               ))}
@@ -75,6 +78,7 @@ const AppSlider = () => {
             <FeatureBlock
               key={`app-feature--key${item.id}`}
               iconPosition="left"
+              // image={src}
               icon={<i className={item.icon}></i>}
               title={<Heading as="h3" content={item.title} />}
               description={<Text content={item.description} />}

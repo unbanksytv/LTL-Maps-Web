@@ -64,6 +64,7 @@
     ]
   },
   "dependencies": {
-    "polished": "^3.4.4"
+    "polished": "^3.4.4",
+    "react-eva-icons": "^0.0.8"
   }
 }
