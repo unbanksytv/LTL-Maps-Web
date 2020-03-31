@@ -1,9 +1,9 @@
 {
   "name": "gatsby-landing",
   "private": true,
-  "description": "React Next Landing with Gatsby Static site generator.",
+  "description": "LTL Maps | Get Early Access",
   "version": "4.0.0",
-  "author": "RedQ Team",
+  "author": "LTL Maps",
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
     "@redq/reuse-modal": "^1.1.9",

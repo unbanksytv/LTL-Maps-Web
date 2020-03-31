@@ -27,7 +27,7 @@ export default function() {
   return (
     <ThemeProvider theme={theme}>
       <>
-        <SEO title="App Classic" />
+        <SEO title="LTL Maps" />
         <ResetCSS />
         <GlobalStyle />
 
