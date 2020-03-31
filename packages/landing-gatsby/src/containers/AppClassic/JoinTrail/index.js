@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 import { useStaticQuery, graphql } from 'gatsby';
 import Fade from 'react-reveal/Fade';
 import Image from 'common/src/components/Image';
@@ -37,8 +38,16 @@ const JoinTrail = () => {
         </Fade>
         <Fade up delay={300}>
           <ButtonGroup>
-            <Button title="Join with Slack" />
-            <Button title="Login with Email" variant="textButton" />
+            <a
+              target="_blank"
+              href="https://join.slack.com/t/ltlmaps/shared_invite/zt-d5xiq75i-tZNg6~xW10YmjwayZERFBg"
+            >
+              <Button title="Join with Slack" />
+            </a>
+
+            <a target="_blank" href="https://ltlmaps.herokuapp.com">
+              <Button title="Login with Email" variant="textButton" />
+            </a>
           </ButtonGroup>
         </Fade>
       </ContentWrapper>

@@ -27,6 +27,12 @@ export const ContentWrapper = styled.div`
     }
   }
 
+  a:active,
+  a:visited,
+  a:link {
+    color: #fff;
+  }
+
   h2 {
     font-size: 48px;
     line-height: 60px;
